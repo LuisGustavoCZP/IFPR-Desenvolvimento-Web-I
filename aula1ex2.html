@@ -1,19 +1,39 @@
 <html>
     <head>
-        <title>
-            <title>Exercicio 2 (IFPR-DW1) - Curriculo </title>
-            <style>
-                h1 {color:black; align-self: center;}
-                p0 {display: flex; align-items: center; justify-content: space-between; flex-direction: row;}
-                p1 {display: flex; flex-direction: column;}
-                text2 {color:darkblue}
-                text3 {color:yellowgreen}
-                text4 {color:darkred}
-            </style>
-        </title>
+        <title>Exercicio 2 (IFPR-DW1) - Curriculo </title>
+        <style>
+            h1 {color:black; align-self: center;}
+            p0 {display: flex; align-items: center; justify-content: space-between; flex-direction: row;}
+            p1 {display: flex; align-items: center; justify-content: space-between; flex-direction: column; margin: 3%;}
+            text2 {color:darkblue}
+            text3 {color:yellowgreen}
+            text4 {color:darkred}
+            hldbartext
+            {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                color:blueviolet;
+                text-align: center;
+            }
+            hldbarback
+            {
+                height: 25px;
+                background-color: cornflowerblue;
+                position: relative;
+            }
+            hldbar 
+            {
+                position: absolute;
+                height: 100%;
+                background-color: darkblue;
+            }
+            hldades {display:flex; flex-direction: row; justify-content:space-around; align-items:flex-start; padding: 2%; }
+            hldade {display:flex; flex-wrap: nowrap; flex-direction: column; flex-basis: 100px; margin: 10px;}
+        </style>
     </head>
     <body>
-        <h1> Luis Gustavo Cardoso Zanetti Pererira </h1>
+        <h1 style="text-align: center;"> Luis Gustavo Cardoso Zanetti Pererira </h1>
         <p0>
             <p1>
                 <h3>
@@ -32,7 +52,178 @@
                     <text2>IFPR</text2>
                     <text3>(Cursando)</text3>
                     <br>
-                </h4>     
+                </h4>
+                <br>
+                <h3>
+                    Cursos: 
+                </h3>     
+                <h4>
+                    <hldades>
+                        <hldade>
+                            <text1>GOAP,</text1>
+                            <text2>Udemy</text2>
+                            <hldbarback>
+                                <hldbar style="width:80%"/>
+                                <hldbartext>80%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            <text1>DOTS,</text1>
+                            <text2>Udemy</text2>
+                            <hldbarback>
+                                <hldbar style="width:30%"/>
+                                <hldbartext>30%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            <text1>Desenvolvimento Web,</text1>
+                            <text2>Alpha EdTech</text2>
+                            <hldbarback>
+                                <hldbar style="width:01%"/>
+                                <hldbartext>1%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                    </hldades>
+                    <br>
+                </h4>
+                <h3> Habilidades/Pretencoes: </h3>
+                <h4>
+                    <text1>Desenvolvimento de Jogos: <text2>Unity</text2></text1>
+                    <hldades>
+                        <hldade>
+                            Shaders
+                            <hldbarback>
+                                <hldbar style="width:50%"/>
+                                <hldbartext>50%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            3D Procedural Models
+                            <hldbarback>
+                                <hldbar style="width:70%"/>
+                                <hldbartext>70%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            UIElement (New)
+                            <hldbarback>
+                                <hldbar style="width:50%"/>
+                                <hldbartext>50%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            IA (Game oriented)
+                            <hldbarback>
+                                <hldbar style="width:40%"/>
+                                <hldbartext>40%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            Sistemas orientados a componentes
+                            <hldbarback>
+                                <hldbar style="width:70%"/>
+                                <hldbartext>70%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            Sistemas orientados a dados
+                            <hldbarback>
+                                <hldbar style="width:30%"/>
+                                <hldbartext>30%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                    </hldades>
+                    <br>
+                </h4>
+                <h4>
+                    <text1>Desenvolvimento Web: <text2>Full-Stack</text2></text1>
+                    <hldades>
+                        <hldade>
+                            HTTP
+                            <hldbarback>
+                                <hldbar style="width:5%"/>
+                                <hldbartext>5%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            CSS
+                            <hldbarback>
+                                <hldbar style="width:5%"/>
+                                <hldbartext>5%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            Javascript
+                            <hldbarback>
+                                <hldbar style="width:0%"/>
+                                <hldbartext>0%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            PHP
+                            <hldbarback>
+                                <hldbar style="width:0%"/>
+                                <hldbartext>0%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            MYSQL
+                            <hldbarback>
+                                <hldbar style="width:0%"/>
+                                <hldbartext>0%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            Others
+                            <hldbarback>
+                                <hldbar style="width:0%"/>
+                                <hldbartext>0%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                    </hldades>
+                    <br>
+                </h4>
+                <h4>
+                    <text1>Lingua: <text2>Inglesa</text2></text1>
+                    <hldades>
+                        <hldade>
+                            Escrita
+                            <hldbarback>
+                                <hldbar style="width:70%"/>
+                                <hldbartext>70%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            Leitura
+                            <hldbarback>
+                                <hldbar style="width:85%"/>
+                                <hldbartext>85%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            Audicao
+                            <hldbarback>
+                                <hldbar style="width:50%"/>
+                                <hldbartext>50%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            Dicçao
+                            <hldbarback>
+                                <hldbar style="width:20%"/>
+                                <hldbartext>20%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                        <hldade>
+                            Interpretacao
+                            <hldbarback>
+                                <hldbar style="width:75%"/>
+                                <hldbartext>75%</hldbartext>
+                            </hldbarback>
+                        </hldade>
+                    </hldades>
+                    <br>
+                </h4>
             </p1>
             <p1>
                 <img src="foto.jpeg" width="100"/>
