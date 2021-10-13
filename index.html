@@ -1,77 +1,93 @@
 <html>
   <head>
     <title>Exercicios (IFPR-DW1) - Luis Gustavo Cardoso Zanetti Pereira</title>
-  </head>
-  <body>
     <style>
       body {background-color: gainsboro;}
-      
-      h2 {text-decoration: underline;} 
+      h1 {text-shadow: 5; text-align: center;}
+      h2 {text-decoration: underline; text-align: center;} 
       h3 {text-decoration: underline;} 
+      main {display: flex; flex-grow: 1; flex-direction: row;}
+      iframe {display: flex; flex-grow: 1;}
+      nav {display: flex; flex-direction:column; flex-shrink: 1; padding: 5px;}
+      ol {padding-left: 20px;}
+      .aula {background-color: darkolivegreen;}
+      .exe {background-color:darkslategray;}
+      .exe:hover {background-color: rgb(96, 155, 155);}
     </style>
-
+  </head>
+  <body>
     <h1><b>Desenvolvimento Web I</b></h1>
     <hr>
-    <h2>Aulas</h2>
-    <ol>
-      <li>
-        <h3>Introdução</h3>
+    <main>
+      <nav>
+        <h2>Aulas</h2>
         <ol>
-          <li>
-            <a href="aula1ex1.html">Cidade de Foz</a>
+          <li class="aula">
+            <h3>Introdução</h3>
+            <ol>
+              <li class="exe">
+                <a href="aula1/aula1ex1.html" target="subpage">Cidade de Foz</a>
+              </li>
+              <li class="exe">
+                <a href="aula1/aula1ex2.html" target="subpage">Curriculo</a>
+              </li>
+            </ol>
           </li>
-          <li>
-            <a href="aula1ex2.html">Curriculo</a>
+          <li class="aula">
+            <h3>Listas</h3>
+            <ol>
+              <li class="exe">
+                <a href="aula2/aula2ex1.html" target="subpage">Lista de Esportes</a>
+              </li>
+              <li class="exe">
+                <a href="aula2/aula2ex2.html" target="subpage">Lista de Instituições</a>
+              </li>
+              <li class="exe">
+                <a href="aula2/aula2ex3.html" target="subpage">Lista de Times</a>
+              </li>
+              <li class="exe">
+                <a href="aula2/aula2ex4.html" target="subpage">Lista de Veiculos</a>
+              </li>
+              <li class="exe">
+                <a href="aula2/aula2ex5.html" target="subpage">Lista de Filmes</a>
+              </li>
+            </ol>
+          </li>
+          <li class="li aula">
+            <h3>Tabelas</h3>
+            <ol>
+              <li class="exe">
+                <a href="aula3/aula3ex1.html" target="subpage">Tabela de Cursos</a>
+              </li>
+              <li class="exe">
+                <a href="aula3/aula3ex2.html" target="subpage">Tabela de Roteiros</a>
+              </li>
+              <li class="exe">
+                <a href="aula3/aula3ex3.html" target="subpage">Tabela Carros 1</a>
+              </li>
+              <li class="exe">
+                <a href="aula3/aula3ex4.html" target="subpage">Tabela Carros 2</a>
+              </li>
+              <li class="exe">
+                <a href="aula3/aula3ex5.html" target="subpage">Tabela Carros 3</a>
+              </li>
+              <li class="exe">
+                <a href="aula3/aula3ex6.html" target="subpage">Tabela Casas 1</a>
+              </li>
+              <li class="exe">
+                <a href="aula3/aula3ex7.html" target="subpage">Tabela Casas 2</a>
+              </li>
+            </ol>
           </li>
         </ol>
-      </li>
-      <li>
-        <h3>Listas</h3>
-        <ol>
-          <li>
-            <a href="aula2ex1.html">Lista de Esportes</a>
-          </li>
-          <li>
-            <a href="aula2ex2.html">Lista de Instituições</a>
-          </li>
-          <li>
-            <a href="aula2ex3.html">Lista de Times</a>
-          </li>
-          <li>
-            <a href="aula2ex4.html">Lista de Veiculos</a>
-          </li>
-          <li>
-            <a href="aula2ex5.html">Lista de Filmes</a>
-          </li>
-        </ol>
-      </li>
-      <li>
-        <h3>Tabelas</h3>
-        <ol>
-          <li>
-            <a href="aula3ex1.html">Tabela de Cursos</a>
-          </li>
-          <li>
-            <a href="aula3ex2.html">Tabela de Roteiros</a>
-          </li>
-          <li>
-            <a href="aula3ex3.html">Tabela Carros 1</a>
-          </li>
-          <li>
-            <a href="aula3ex4.html">Tabela Carros 2</a>
-          </li>
-          <li>
-            <a href="aula3ex5.html">Tabela Carros 3</a>
-          </li>
-          <li>
-            <a href="aula3ex6.html">Tabela Casas 1</a>
-          </li>
-          <li>
-            <a href="aula3ex7.html">Tabela Casas 2</a>
-          </li>
-        </ol>
-      </li>
-    </ol>
-    <h6> by Luis Gustavo Cardoso Zanetti Pererira </h6>
+      </nav>
+      <hr>
+      <iframe src="" name="subpage">
+
+      </iframe>
+    </main>
+    <footer>
+      <h6> by Luis Gustavo Cardoso Zanetti Pererira </h6>
+    </footer>
   </body>
 </html>
