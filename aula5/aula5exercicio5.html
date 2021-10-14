@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Aula 5 - Exercicio 4</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+        <style>
+            h1 {margin: 0px; padding: 0px; flex-grow: 1; flex-direction: column;}
+            h2 {color:darkblue; margin: 0px;}
+            hr {border-top-color: darkblue; background-color:darkblue; border-bottom-color: darkcyan;}
+            .sublinks {color: white;}
+            .sublinks:link {color: yellow;}
+            .sublinks:hover {background-color: black;}
+            .atencao {color:red;}
+            section {padding-top: 10px;}
+            .box {border: 1px; border-style: solid; border-color: black; padding-bottom: 10px; margin-top: 20px; }
+            .boxTitulo { 
+                font-family: 'Cinzel', serif;; 
+                padding: 10px; margin: 0; 
+                background-color:burlywood;
+            }
+            .boxTitulo.socio { background-color:rgb(190, 255, 190);}
+            .boxTexto {padding-left: 10px; padding-right: 10px;}
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <header style="background-color:mediumblue; text-align: center; color: white;">
+            <div style=" justify-content: center; display: flex; padding-top: 20px;">
+                <h1>Desenvolvimento de Web</h1>
+            </div>
+           
+            <nav style="padding-bottom: 20px; color:white;">
+                <span><a class="sublinks" href="https://www.google.com/" target="_blank">google</a> | <a class="sublinks" href="https://foz.ifpr.edu.br/" target="_blank">ifpr</a> | <a class="sublinks" href="https://www.uol.com.br/" target="_blank">uol</a></span>
+            </nav>
+        </header>
+        <main style="background-color: white; padding: 10px;">
+            <section>
+                <h2>Introdução</h2>
+                <hr />
+                <div class="box">
+                    <h4 class="boxTitulo">Sobre como se desenvolveu o trabalho</h4>
+                    <p class="boxTexto">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <b class="atencao">exercitation ullamco laboris</b> nisi ut aliquip ex ea commodo consequat. Duis <b class="atencao">aute irure</b> dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h2>Desenvolvimento</h2>
+                <hr />
+                <div class="box">
+                    <h4 class="boxTitulo socio">Sobre os principios sociais</h4>
+                    <p class="boxTexto">
+                        Lorem ipsum dolor sit amet, <b class="atencao">consectetur adipisicing</b> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer style="background-color:lightgray; padding: 5px; text-align: center;">
+            <p>Site desenvolvido por <b>Luis Gustavo C. Z. P.</b></p>
+        </footer>
+    </body>
+</html>

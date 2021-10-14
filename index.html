@@ -1,28 +1,45 @@
 <html>
   <head>
-    <title>Exercicios (IFPR-DW1) - Luis Gustavo Cardoso Zanetti Pereira</title>
+    <meta charset="UTF-8" />
+    <meta property="ob:title" content="IFPR - Desenvolvimento Web I" />
+    <meta property="ob:autor" content="Luis Gustavo Cardoso Zanetti Pereira">
+    <meta property="og:image" content="../images/ifprlogo.png" />
+    <title>IFPR - Desenvolvimento Web I</title>
     <style>
       body {background-color: gainsboro;}
-      h1 {text-shadow: 5; text-align: center;}
+      header {
+        background-color:darkolivegreen; 
+        display:flex; text-align: center; 
+        vertical-align: middle; flex-direction: row; 
+        justify-content: space-between; padding: 10px;
+      }
+      
+      h1 {padding: 30px; margin:0px; vertical-align: middle;}
       h2 {text-decoration: underline; text-align: center;} 
       h3 {text-decoration: underline;} 
-      main {display: flex; flex-grow: 1; flex-direction: row;}
+      main {display: flex; flex-grow: 1; flex-direction: row; }
       iframe {display: flex; flex-grow: 1;}
-      nav {display: flex; flex-direction:column; flex-shrink: 1; padding: 5px;}
+      nav {display: flex; flex-direction:column; flex-shrink: 1; padding: 10px; background-color: yellowgreen;}
       ol {padding-left: 20px;}
-      .aula {background-color: darkolivegreen;}
-      .exe {background-color:darkslategray;}
-      .exe:hover {background-color: rgb(96, 155, 155);}
+
+      .titulo {display:flex; flex-grow: 1; justify-content:center; text-align: center; vertical-align: middle;}
+      .aula {background-color:darkgrey;}
+      .exe {background-color:gainsboro;}
+      .exe:hover {background-color:greenyellow}
     </style>
   </head>
   <body>
-    <h1><b>Desenvolvimento Web I</b></h1>
-    <hr>
+    <header>
+      <image src="../images/ifprlogo1.png" height="100px" />
+      <div class="titulo">
+        <h1>Desenvolvimento Web I</h1>
+      </div>
+    </header>
     <main>
       <nav>
         <h2>Aulas</h2>
-        <ol>
-          <li class="aula">
+        <ol class="aula">
+          <li>
             <h3>Introdução</h3>
             <ol>
               <li class="exe">
@@ -33,7 +50,7 @@
               </li>
             </ol>
           </li>
-          <li class="aula">
+          <li>
             <h3>Listas</h3>
             <ol>
               <li class="exe">
@@ -53,7 +70,7 @@
               </li>
             </ol>
           </li>
-          <li class="li aula">
+          <li>
             <h3>Tabelas</h3>
             <ol>
               <li class="exe">
@@ -79,14 +96,39 @@
               </li>
             </ol>
           </li>
+          <li>
+            <h3>Layouts</h3>
+            <ol>
+              <li class="exe">
+                <a href="aula5/aula5exercicio1.html" target="subpage">Layout Simples</a>
+              </li>
+              <li class="exe">
+                <a href="aula5/aula5exercicio2.html" target="subpage">Layout Simples 2</a>
+              </li>
+              <li class="exe">
+                <a href="aula5/aula5exercicio3.html" target="subpage">Layout Simples 3</a>
+              </li>
+              <li class="exe">
+                <a href="aula5/aula5exercicio4.html" target="subpage">Layout Simples 4</a>
+              </li>
+              <li class="exe">
+                <a href="aula5/aula5exercicio5.html" target="subpage">Layout Simples 5</a>
+              </li>
+              <li class="exe">
+                <a href="aula5/aula5exercicio6.html" target="subpage">Layout Simples 6</a>
+              </li>
+              <li class="exe">
+                <a href="aula5/aula5exercicio7.html" target="subpage">Layout Simples 7</a>
+              </li>
+            </ol>
+          </li>
         </ol>
       </nav>
-      <hr>
       <iframe src="" name="subpage">
 
       </iframe>
     </main>
-    <footer>
+    <footer style="text-align: center;">
       <h6> by Luis Gustavo Cardoso Zanetti Pererira </h6>
     </footer>
   </body>
