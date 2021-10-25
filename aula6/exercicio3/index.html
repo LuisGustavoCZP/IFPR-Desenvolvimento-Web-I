@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 6 - Exercicio 3</title>
+        <style>
+            header {
+                background-color: aquamarine;
+                text-align: center;
+                padding: 15px;
+            }
+            footer {
+                border: 1px solid rgb(165, 0, 36);
+                text-align: center;
+                padding: 5px;
+            }
+            main {
+                display: grid;
+                
+                grid-auto-flow: column;
+                margin: 0px;
+            }
+            main > nav {
+                display: grid;
+                align-content:flex-start;
+                grid-auto-flow: row;
+                padding: 15px;
+                border: 1px solid grey;
+            }
+            main > article {
+                
+                
+                border: 1px solid black;
+            }
+            main > article > p {
+                padding: 0px 0px 0px 10px;
+            }
+            main > article > div 
+            {
+                display: grid;
+                /*grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: 1fr;*/
+                grid-auto-flow: column;
+                align-items: stretch;
+            }
+            main > article > div > div {
+                padding: 15px;
+                border: 1px solid gray;
+            }
+        </style>
+    </head>
+    <body>
+        <header><h1>HEADER_2</h1></header>
+        <main>
+            <nav>
+                <a>opção 1</a>
+                <a>opção 2</a>
+                <a>opção 3</a>
+                <a>opção 4</a>
+            </nav>
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+                <div>
+                    <div>
+                        <h3>Jungle</h3>
+                        <img src="images/floresta.png">
+                    </div>
+                    <div>
+                        <h3>one title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+                    </div>
+                    <div>
+                        <h3>secound title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <footer><h2>FOOTER</h2></footer>
+    </body>
+</html>

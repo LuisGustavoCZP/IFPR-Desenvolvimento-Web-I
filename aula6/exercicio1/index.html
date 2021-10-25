@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Aula 6 - Exercicio 1</title>
+        <style>
+            h1 {padding: 10px; }
+            h2 {color:darkblue;}
+            hr {border-top-color: darkblue; background-color:darkblue; border-bottom-color: darkcyan;}
+            body{
+                background-color: black;
+            }
+            header {
+                background-color:tan; text-align: center; color: darkblue;
+            }
+            header > nav {
+                display:grid;
+                grid-auto-flow: column;
+                justify-content: center;
+                align-items: center;
+            }
+            main {
+                background-color: white; padding: 10px;
+            }
+            footer{
+                background-color:lightgray; padding: 5px; text-align: center;
+            }
+            .sublinks {color: white;}
+            .sublinks:link {color: yellow;}
+            .sublinks:hover {background-color: blue;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Desenvolvimento de Sistemas</h1>
+            <nav>
+                <a class="sublinks" href="https://www.google.com/" target="_blank">google</a> 
+                | 
+                <a class="sublinks" href="https://foz.ifpr.edu.br/" target="_blank">ifpr</a> 
+                | 
+                <a class="sublinks" href="https://www.uol.com.br/" target="_blank">uol</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Introdução</h2>
+                <hr />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </section>
+            <section>
+                <h2>Desenvolvimento</h2>
+                <hr />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </section>
+        </main>
+        <footer>
+            <p>Site desenvolvido por tectronica S.A.</p>
+        </footer>
+    </body>
+</html>

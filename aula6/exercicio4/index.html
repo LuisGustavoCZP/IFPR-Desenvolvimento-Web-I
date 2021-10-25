@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 6 - Exercicio 4</title>
+        <style>
+            header {
+                background-color:rgb(218, 183, 123);
+            }
+            h1 {
+                color:darkblue; 
+                text-align:center;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                padding-top: 20px;
+            }
+            hr {
+                margin-top: 0px;
+                margin-bottom: 10px;
+            }
+            h2 {
+                color:darkblue; 
+                margin: 0px;
+            }
+            header > nav {
+                display:grid;
+                grid-auto-flow: column;
+                justify-content: center;
+                align-items: center;
+            }
+            main {
+                display:grid;
+                grid-auto-flow:column;
+            }
+            main > aside > nav {
+                background-color:rgb(218, 183, 123);
+                display:grid;
+                grid-auto-flow: row;
+                grid-template-columns: 150px;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                grid-row-gap: 1em;
+            }
+            main > aside > nav > a {
+                padding: 5px;
+                background-color: white;
+                border-radius: 5px;
+                user-select: none;
+                color:blue;
+            }
+            main > aside > nav > a:hover{
+                background-color: palegreen;
+                font-weight:600;
+            }
+            main > article {
+                padding: 20px;
+            }
+            footer{
+                background-color:lightgray; padding: 5px; text-align: center;
+            }
+            .sublinks {padding: 5px; color: yellow;}
+            .sublinks:link {color: white;}
+            .sublinks:hover {background-color: blue;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Desenvolvimento de Sistemas</h1>
+            <nav>
+               <a class="sublinks" href="https://www.google.com/" target="_blank">google</a> 
+               | 
+               <a class="sublinks" href="https://foz.ifpr.edu.br/" target="_blank">ifpr</a> 
+               | 
+               <a class="sublinks" href="https://www.uol.com.br/" target="_blank">uol</a>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <nav>
+                    <a>produtos</a> 
+                    <a>clientes</a>  
+                    <a>help-desk</a>
+                    <a>informações</a>
+                 </nav>
+            </aside>
+            <article>
+                <section>
+                    <h2>Introdução</h2>
+                    <hr />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </section>
+                <section>
+                    <h2>Desenvolvimento</h2>
+                    <hr />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <p>Site desenvolvido por tectronica S.A.</p>
+        </footer>
+    </body>
+</html>
